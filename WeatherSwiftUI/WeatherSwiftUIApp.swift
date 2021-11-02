@@ -1,17 +1,11 @@
-//
-//  WeatherSwiftUIApp.swift
-//  WeatherSwiftUI
-//
-//  Created by Диана Нуансенгси on 01.11.2021.
-//
-
 import SwiftUI
 
 @main
-struct WeatherSwiftUIApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+struct WeatherApp: App {
+  var body: some Scene {
+    WindowGroup {
+      let weatherService = WeatherService()
+      WeatherView(viewModel: WeatherViewModel(weatherService: weatherService))
     }
+  }
 }
