@@ -5,7 +5,6 @@ A simple weather app that provides up-to-date weather information from the curre
 - JSON & Decodable
 - MVVM
 - ObservableObject
-- 
 # Screenshots
 
 <img src="https://user-images.githubusercontent.com/86627602/141323217-116827bc-f113-4ba2-8869-aa5a407844b9.png" width=25% height=25%>
